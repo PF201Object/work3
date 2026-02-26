@@ -1,7 +1,8 @@
 package Main;
 
 import Admin.adminDashboard;
-import User.userDashboard;
+import User.Profile;
+import User.UserDashboard;
 import config.config;
 import config.Session;
 import javax.swing.JOptionPane;
@@ -110,7 +111,7 @@ public class Login extends javax.swing.JFrame {
                 adminDashboard admin = new adminDashboard();
                 admin.setVisible(true);
             } else {
-                userDashboard userDash = new userDashboard();
+                UserDashboard userDash = new UserDashboard();
                 userDash.setVisible(true);
             }
             this.dispose();

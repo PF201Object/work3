@@ -18,9 +18,9 @@ public class PaymentDialog extends JDialog {
     private String customerName;
     private String location;
     private config con;
-    private adminSale parentFrame;
+    private Sale parentFrame;
     
-    public PaymentDialog(adminSale parent, double total, String customer, String storeLocation) {
+    public PaymentDialog(Sale parent, double total, String customer, String storeLocation) {
         super(parent, "Process Payment", true);
         this.parentFrame = parent;
         this.totalAmount = total;

@@ -399,19 +399,19 @@ public class Customer extends javax.swing.JFrame {
     }
 
     private void userbtnActionPerformed(java.awt.event.ActionEvent evt) {
-        adminUser ua = new adminUser();
+        User ua = new User();
         ua.setVisible(true);
         this.dispose();
     }
 
     private void productBtnActionPerformed(java.awt.event.ActionEvent evt) {
-        adminProduct ap = new adminProduct();
+        Product ap = new Product();
         ap.setVisible(true);
         this.dispose();
     }
 
     private void saleBtnActionPerformed(java.awt.event.ActionEvent evt) {
-        adminSale as = new adminSale();
+        Sale as = new Sale();
         as.setVisible(true);
         this.dispose();
     }
